@@ -207,9 +207,9 @@ button:hover {
     height: 717px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     padding: 100px;
-    align-content: center;
 }
 
 .proceso {
@@ -223,11 +223,10 @@ button:hover {
 }
 
 .item {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     position: relative;
     align-content: center;
     gap: 30px;
@@ -273,7 +272,11 @@ footer {
 }
 
 .vector {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     display: flex;
+}
+
+ul {
+    color: gray;
 }
